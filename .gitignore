@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and editor workspace files
+*.code-workspace
+.vscode/
+.idea/
+
+# Images and generated media
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.webp
+*.tif
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# JSON results and local experiment outputs
+*.json
+runs/
+results/
+outputs/
+
+# Model checkpoints and generated deployment artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+*.rknn
+*.tflite
+*.bin
+
+# Native build artifacts
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.a
+build/
+dist/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Local Ultralytics outputs/cache
+ultralytics/
